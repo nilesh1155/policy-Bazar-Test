@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launching browser]]>
+    </line>
+    <line>
+      <![CDATA[reading data mobilenofrom property file]]>
+    </line>
+    <line>
+      <![CDATA[reading data pswfrom property file]]>
+    </line>
+    <line>
+      <![CDATA[thisvalidateUserName method is started]]>
+    </line>
+    <line>
+      <![CDATA[reading data namefrom property file]]>
+    </line>
+    <line>
+      <![CDATA[taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[screenshot location isD:\getimage\Nilesh Ande.jpeg]]>
+    </line>
+    <line>
+      <![CDATA[this validateUserName completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-01T21:02:46 IST" name="Default suite" finished-at="2023-07-01T21:03:22 IST" duration-ms="35848">
+    <groups>
+    </groups>
+    <test started-at="2023-07-01T21:02:46 IST" name="Default test" finished-at="2023-07-01T21:03:22 IST" duration-ms="35848">
+      <class name="Test.PB_TC_1010_ValidateTest">
+        <test-method is-config="true" signature="launchPolicyBrowser()[pri:0, instance:Test.PB_TC_1010_ValidateTest@cc239ba]" started-at="2023-07-01T21:02:46 IST" name="launchPolicyBrowser" finished-at="2023-07-01T21:02:53 IST" duration-ms="7323" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPolicyBrowser -->
+        <test-method is-config="true" signature="logIntoPoliciBazar()[pri:0, instance:Test.PB_TC_1010_ValidateTest@cc239ba]" started-at="2023-07-01T21:02:53 IST" name="logIntoPoliciBazar" finished-at="2023-07-01T21:03:09 IST" duration-ms="16018" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading data mobilenofrom property file]]>
+            </line>
+            <line>
+              <![CDATA[reading data pswfrom property file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIntoPoliciBazar -->
+        <test-method signature="validateUserName()[pri:0, instance:Test.PB_TC_1010_ValidateTest@cc239ba]" started-at="2023-07-01T21:03:09 IST" name="validateUserName" finished-at="2023-07-01T21:03:18 IST" duration-ms="8680" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[thisvalidateUserName method is started]]>
+            </line>
+            <line>
+              <![CDATA[reading data namefrom property file]]>
+            </line>
+            <line>
+              <![CDATA[taking screenshot]]>
+            </line>
+            <line>
+              <![CDATA[screenshot location isD:\getimage\Nilesh Ande.jpeg]]>
+            </line>
+            <line>
+              <![CDATA[this validateUserName completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logOutFromPolicy()[pri:0, instance:Test.PB_TC_1010_ValidateTest@cc239ba]" started-at="2023-07-01T21:03:18 IST" name="logOutFromPolicy" finished-at="2023-07-01T21:03:19 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromPolicy -->
+        <test-method is-config="true" signature="closePolicyBrowser()[pri:0, instance:Test.PB_TC_1010_ValidateTest@cc239ba]" started-at="2023-07-01T21:03:19 IST" name="closePolicyBrowser" finished-at="2023-07-01T21:03:22 IST" duration-ms="2437" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closePolicyBrowser -->
+      </class> <!-- Test.PB_TC_1010_ValidateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
